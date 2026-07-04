@@ -37,13 +37,17 @@ This package is intended for:
 
 ## Dependencies
 
-None
+This package is consumed by the repository tooling and all applications.
+
+Runtime dependencies:
+
+- None
 
 ---
 
 ## Public API
 
-- prettier.config.js
+- prettier.config.mjs
 
 ---
 
@@ -52,6 +56,12 @@ None
 Formatting is part of the engineering foundation.
 
 Every application and package should consume this configuration instead of defining its own formatting rules.
+
+---
+
+## Ownership
+
+Platform Engineering
 
 ---
 
